@@ -1,14 +1,14 @@
 module.exports = {
   node: {
-    mode: "production",
+    mode: "debug",
 
     // if you set this to port 80, you must run the server as root
-    port: 5000,
+    port: 4000,
 
     // specific ip is optional (if your server has more than one)
     //    'ip'           : '208.52.189.89',
 
-    socketUrl: "http://localhost:5000",
+    socketUrl: "http://localhost:5555",
     socketUrlSSL: "",
     poweredBy: "dome-client.js",
     session: {
@@ -27,9 +27,9 @@ module.exports = {
 
   // where it connects to
   moo: {
-    name: "HackerCore",
+    name: "Gachapon Party",
     host: "localhost",
-    port: 8888,
+    port: 7777,
   },
 
   // specialized autocomplete for each player class
@@ -48,3 +48,4 @@ module.exports = {
     flushInterval: 50,    // Flush interval in milliseconds (unused in line buffer mode)
   },
 };
+
