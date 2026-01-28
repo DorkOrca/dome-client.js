@@ -102,7 +102,7 @@ version: app.get("version"),
 poweredBy: config.node.poweredBy,
 gameName: config.moo.name,
 connected: routes.socket.connected,
-};
+});
 next();
 });
 
