@@ -28,7 +28,7 @@ module.exports = {
   // where it connects to
   moo: {
     name: "Gachapon Party",
-    host: "localhost",
+    host: "127.0.0.1",
     port: 7777,
   },
 
